@@ -1,3 +1,3 @@
 # DenverCrimeApp
 
-This was the final project for database management.e 
+This was the final project for database management. 
