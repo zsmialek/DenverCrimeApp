@@ -13,11 +13,11 @@ from matplotlib.dates import YearLocator, MonthLocator, DateFormatter, DayLocato
 import pandas as pd
 import getpass
 
-#login = input('login: ')
-#secret = getpass.getpass('password: ')
+login = input('login: ')
+secret = getpass.getpass('password: ')
 
-credentials = {'user'    : 'zsmialek',
-               'password': 'TheH@mLun@',
+credentials = {'user'    : login,
+               'password': secret,
                'database': 'csci403',
                'host'    : 'flowers.mines.edu'}
 
